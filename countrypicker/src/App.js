@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled, { css } from 'styled-components';
 import { rgba } from 'polished';
-import json from '../countries.json';
+import json from './countries.json';
 
 const getFlag = (code) => `https://countryFlags.io/${code}/flat/64.png`;
 
